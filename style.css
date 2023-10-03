@@ -1,0 +1,200 @@
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:  rgb(145, 145, 145);
+    width: 260px;
+    font-family: 'Playfair Display', serif;
+    height:100%;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 35px;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.Main{
+    background-color: yelow;
+    width: 81vw;
+}
+.container{
+    display: flex ;
+}
+.infocontainer{
+    background-color: gren;
+    height:43vh ;
+    width: 70vw;
+    margin: auto;
+    margin-top: 175px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 220px;
+    
+}
+.infocontainer1{
+    background-color: gren;
+    height:43vh ;
+    width: 70vw;
+    margin: auto;
+    margin-top: 101px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.infocontainer2{
+    background-color: gren;
+    height:43vh ;
+    width: 70vw;
+    margin: auto;
+    margin-top: 101px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.devpic img{
+    width: 264px;
+    height: 211px;
+    .skillsinfo p{
+        display: block;
+    }
+   
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutme{
+    font-size: 40px;
+    font-weight: bold;  
+}
+.hello{
+    font-size: 35px;
+    font-weight: bold;
+}
+.About{
+    font-size: 30px;
+}
+.buttons{
+    margin-top: 10px;
+    
+
+}
+.buttons button{
+    padding:7px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(65, 101, 137);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    color:rgb(65, 101, 137) ;
+    background-color: white;
+}    
+.contactform{    
+    font-family: 'Playfair Display', serif;
+    padding-top: 100px;
+    padding-left: 50px;
+    margin-left: 300px;
+    
+
+    
+}
+.contactform h1{    
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-bottom:  30px;
+}
+.contactform form div{
+    padding-top:15px;
+    font-size:25px ;
+    display: flex;
+    flex-direction: column;
+
+}
+#emailHelp.form-text{
+    font-size: 12px;
+}
+#clientmail.form-control{
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 300px;
+    margin-top: 8px;
+}
+#clientphone.form-control{
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 300px;
+    margin-top: 8px;
+}
+#clientenquiry.form-control{
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 300px;
+    margin-top: 8px;
+}
+.mb-3.form-check{
+    padding-bottom:25px;
+    display: inline-block;
+}
+.btn.btn-primary{
+    display: block;
+    padding: 4px;
+    font-size: 17px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(65, 101, 137);
+    font-weight: bold;
+}
+.btn.btn-primary:hover{
+    color:rgb(65, 101, 137) ;
+    background-color: white;
+} 
+.skills{
+    font-size: 40px;
+    font-weight: bold; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.skillsinfo{
+    display:flex;
+    flex-direction: column;
+    font-size: 30px;
+    } 
+    .sidebargo{
+        transform: translate(-260px);  
+        position: absolute;  
+       }
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 220px;
+}
+@media screen and (max-width: 880px) {
+    body {
+    background-color:rgb(84, 74, 74);
+    }
+    .devpic{
+        display: none;
+    }
+      
+    }
+
